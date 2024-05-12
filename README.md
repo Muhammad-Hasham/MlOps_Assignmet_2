@@ -22,7 +22,7 @@ This documentation provides an overview of the data preprocessing steps and the 
 
 ### 3. Data Storage and Versioning
 - Stores the transformed data locally as a CSV file (`processed_data.csv`) in the specified `data_path`.
-- Downloads the CSV file to Google Drive using the `GoogleDriveDownloader` library for backup and sharing purposes.
+- Downloads the CSV file to Google Drive for backup and sharing purposes.
 - Implements version control using DVC to track changes, create checkpoints, and commit data versions.
 
 ## DVC Setup
